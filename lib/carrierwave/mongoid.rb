@@ -155,5 +155,3 @@ class CarrierWave::Uploader::Base
     config.storage_engines[:grid_fs] = "CarrierWave::Storage::GridFS"
   end
 end
-
-Mongoid::Document::ClassMethods.send(:include, CarrierWave::Mongoid)
